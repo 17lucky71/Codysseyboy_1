@@ -78,24 +78,19 @@
  
 실제로 "자동화_테스트설문" 폼에 접속해 점수를 입력하고 제출한 과정입니다.
  
-![점수 80 제출](./03-form-submit-80.png)
- 
-![점수 90 제출](./04-form-submit-90.png)
- 
-![응답 제출 완료 확인](./05-form-submitted-confirm.png)
- 
+<img width="1920" height="1020" alt="03-form-submit-80" src="https://github.com/user-attachments/assets/66c85076-db3a-48e8-9f97-bd58dd63a70b" />
+<img width="1920" height="1020" alt="04-form-submit-90" src="https://github.com/user-attachments/assets/377b924e-d76b-40c2-bbb4-74a14c5a18da" />
+<img width="1920" height="1020" alt="05-form-submitted-confirm" src="https://github.com/user-attachments/assets/581b4cbc-87d4-4d1d-bbef-2db268dbecfb" />
 점수를 입력하고 "제출" 버튼을 누르면 "응답이 기록되었습니다"라는 확인 화면이 뜨며, 이 시점에 Make의 Google Forms 트리거가 새 응답을 감지하여 시나리오가 실행됩니다.
  
 ### 3.2 Google Sheets 기록 결과 (스크린샷)
  
-![Google Sheets 실행 기록](./01-sheets-result.png)
- 
+<img width="1920" height="1020" alt="01-sheets-result" src="https://github.com/user-attachments/assets/b591b1d0-1efc-48f5-8836-29ca6ad7543a" />
 "자동화_실행기록" 스프레드시트에 실제 테스트 응답들이 시간/응답ID/점수 순으로 기록된 모습입니다. 점수 70(저득점)과 80·90(고득점) 응답이 모두 정상적으로 기록되어, 두 분기 경로 모두 Google Sheets 기록 액션이 정상 동작함을 확인할 수 있습니다.
  
 ### 3.3 Discord 알림 수신 결과 (스크린샷)
  
-![Discord 알림 결과](./02-discord-result.png)
- 
+<img width="743" height="1568" alt="02-discord-result" src="https://github.com/user-attachments/assets/da2b9425-5c11-4dbd-b957-08b887a7e947" />
 점수 90, 90, 80으로 제출한 고득점 응답에 대해서만 "🚨 긴급 응답 수신!" 메시지가 Discord 채널("자동화_테스트" 서버의 #일반)에 도착한 것을 확인할 수 있습니다. 점수 70(저득점) 응답에는 알림이 오지 않았으며, 이는 Router의 조건 분기가 의도한 대로 작동함을 보여줍니다.
  
 ---

@@ -21,10 +21,11 @@ LLM 기반으로 효율적인 이메일 초안을 생성하는 시스템의 설�
 
 ---
 
-### 3. ⚙️ [노코드 업무 자동화 파이프라인 및 도구 비교](./automation-pipeline)
-Make와 Zapier 등 노코드 도구를 활용하여 반복 업무를 자동화하고, AI(OpenAI) 및 디스코드 연동 파이프라인을 구축한 결과물입니다.
-* [01_자동화_도구_비교_보고서.md](./automation-pipeline/01_자동화_도구_비교_보고서.md): Make vs Zapier 기능, 요금제, UI/UX 및 실행 로그 비교 분석
-* [02_AI_연동_자동화_파이프라인_설계.md](./automation-pipeline/02_AI_연동_자동화_파이프라인_설계.md): Gmail 수신 ➡️ OpenAI 요약/분류 ➡️ 조건 분기 ➡️ Discord/Google Sheets 자동화 구현
+### 3. ⚙️ [Google Forms 자동화 파이프라인 (Make vs Zapier)](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline)
+Google Forms 설문 응답을 점수 조건에 따라 분기하여 Google Sheets에 기록하고 Discord로 알림을 보내는 워크플로우를, **Make**와 **Zapier** 두 가지 노코드 도구로 각각 실제 구현하고 테스트한 결과물입니다.
+
+* [00_Make_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/00_Make_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): Make.com으로 구현한 Google Forms → 조건 분기(Router) → Sheets/Discord 자동화 및 실시간 자동 실행 검증 결과
+* [02_Zapier_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/02_Zapier_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): 동일한 워크플로우를 Zapier(Paths)로 구현하고 테스트한 결과, 무료 플랜 제약사항 비교
 
 ---
 

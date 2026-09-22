@@ -21,11 +21,13 @@ LLM 기반으로 효율적인 이메일 초안을 생성하는 시스템의 설�
 
 ---
 
-### 3. ⚙️ [Google Forms 자동화 파이프라인 (Make vs Zapier)](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline)
-Google Forms 설문 응답을 점수 조건에 따라 분기하여 Google Sheets에 기록하고 Discord로 알림을 보내는 워크플로우를, **Make**와 **Zapier** 두 가지 노코드 도구로 각각 실제 구현하고 테스트한 결과물입니다.
+### 3. ⚙️ [노코드 자동화 프로젝트 (Make vs Zapier 비교 + 자유 주제 자동화)](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline)
+Google Forms 설문 응답을 점수 조건에 따라 분기하여 Google Sheets에 기록하고 Discord로 알림을 보내는 워크플로우를 **Make**와 **Zapier** 두 가지 노코드 도구로 각각 구현·비교한 [프로젝트 1]과, Make로 Gmail 문의 메일함을 자동 분류·기록·알림 처리하는 자유 주제 자동화를 구현한 [프로젝트 2]로 구성되어 있습니다.
 
-* [00_Make_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/00_Make_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): Make.com으로 구현한 Google Forms → 조건 분기(Router) → Sheets/Discord 자동화 및 실시간 자동 실행 검증 결과
-* [02_Zapier_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/02_Zapier_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): 동일한 워크플로우를 Zapier(Paths)로 구현하고 테스트한 결과, 무료 플랜 제약사항 비교
+* [00_Make_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/00_Make_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): [프로젝트 1] Make.com으로 구현한 Google Forms → 조건 분기(Router) → Sheets/Discord 자동화 및 실시간 자동 실행 검증 결과
+* [01_자동화_도구_비교_보고서.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/01_%EC%9E%90%EB%8F%99%ED%99%94_%EB%8F%84%EA%B5%AC_%EB%B9%84%EA%B5%90_%EB%B3%B4%EA%B3%A0%EC%84%9C.md): [프로젝트 1] Make와 Zapier를 직접 비교한 분석 보고서
+* [02_Zapier_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/02_Zapier_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): [프로젝트 1] 동일한 워크플로우를 Zapier(Paths)로 구현하고 테스트한 결과, 무료 플랜 제약사항 비교
+* [03_Project2_자유주제_자동화_구현.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/03_Project2_%EC%9E%90%EC%9C%A0%EC%A3%BC%EC%A0%9C_%EC%9E%90%EB%8F%99%ED%99%94_%EA%B5%AC%ED%98%84.md): [프로젝트 2] Gmail 문의 메일함을 Make로 자동 분류·기록·알림 처리하는 자유 주제 자동화 구현 및 자동 실행 검증 결과
 
 ---
 

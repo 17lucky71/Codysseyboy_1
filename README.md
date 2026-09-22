@@ -23,6 +23,7 @@ LLM 기반으로 효율적인 이메일 초안을 생성하는 시스템의 설�
 
 ### 3. ⚙️ [노코드 자동화 프로젝트 (Make vs Zapier 비교 + 자유 주제 자동화)](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline)
 Google Forms 설문 응답을 점수 조건에 따라 분기하여 Google Sheets에 기록하고 Discord로 알림을 보내는 워크플로우를 **Make**와 **Zapier** 두 가지 노코드 도구로 각각 구현·비교한 [프로젝트 1]과, Make로 Gmail 문의 메일함을 자동 분류·기록·알림 처리하는 자유 주제 자동화를 구현한 [프로젝트 2]로 구성되어 있습니다.
+> 💡 **Trigger**란 워크플로우를 시작시키는 이벤트를 말합니다 (예: Gmail에 새 메일 도착, Google Forms 응답 제출). **Action**은 Trigger가 발생한 뒤 실행되는 처리 동작을 말합니다 (예: Google Sheets에 행 추가, Discord로 메시지 발송).
 
 * [00_Make_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/00_Make_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): [프로젝트 1] Make.com으로 구현한 Google Forms → 조건 분기(Router) → Sheets/Discord 자동화 및 실시간 자동 실행 검증 결과
 * [01_자동화_도구_비교_보고서.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/01_%EC%9E%90%EB%8F%99%ED%99%94_%EB%8F%84%EA%B5%AC_%EB%B9%84%EA%B5%90_%EB%B3%B4%EA%B3%A0%EC%84%9C.md): [프로젝트 1] Make와 Zapier를 직접 비교한 분석 보고서

@@ -1,27 +1,4 @@
-# 🚀 [프로젝트 1] Zapier를 이용한 자동화 구현 및 테스트 결과
-
-## 📋 개요
-
-"Google Forms 설문 응답 → 조건 분기(점수 기준) → Google Sheets 기록 + Discord 알림" 워크플로우를 Make에 이어 **Zapier**에서도 동일하게 구현하고, 에디터 테스트를 통해 정상 동작을 확인한 결과를 정리한 문서입니다. Make와 완전히 동일한 리소스(같은 폼, 같은 시트, 같은 Discord 서버)를 재사용하여 두 도구를 공정하게 비교할 수 있도록 했습니다.
-
----
-
-## 1. 사용한 도구 및 리소스
-
-- **자동화 플랫폼:** Zapier (zapier.com), Free 플랜
-- **트리거:** Google Forms — "자동화_테스트설문" (Make와 동일한 설문지)
-- **기록 대상:** Google Sheets — "자동화_실행기록" (Make와 동일한 시트)
-- **알림 대상:** Discord — "자동화_테스트" 서버의 "일반" 채널 (Make와 동일한 서버/채널)
-
-Make 테스트 때 사용한 리소스를 그대로 재사용하여, 같은 조건에서 두 도구의 구현 방식과 제약사항을 비교했습니다.
-
----
-
-## 2. 시나리오 구성
-
-```
-[Google Forms] New Form Response
-        ↓
+33
 [Paths by Zapier] 조건 분기 (점수 >= 80 ?)
     ├─ Path A: 고득점 (점수 > 79, 즉 80 이상)
     │     ├─ Discord - Send Channel Message

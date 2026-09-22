@@ -28,6 +28,7 @@ Google Forms 설문 응답을 점수 조건에 따라 분기하여 Google Sheets
 * [01_자동화_도구_비교_보고서.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/01_%EC%9E%90%EB%8F%99%ED%99%94_%EB%8F%84%EA%B5%AC_%EB%B9%84%EA%B5%90_%EB%B3%B4%EA%B3%A0%EC%84%9C.md): [프로젝트 1] Make와 Zapier를 직접 비교한 분석 보고서
 * [02_Zapier_구현_및_테스트_결과.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/02_Zapier_%EA%B5%AC%ED%98%84_%EB%B0%8F_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.md): [프로젝트 1] 동일한 워크플로우를 Zapier(Paths)로 구현하고 테스트한 결과, 무료 플랜 제약사항 비교
 * [03_Project2_자유주제_자동화_구현.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/03_Project2_%EC%9E%90%EC%9C%A0%EC%A3%BC%EC%A0%9C_%EC%9E%90%EB%8F%99%ED%99%94_%EA%B5%AC%ED%98%84.md): [프로젝트 2] Gmail 문의 메일함을 Make로 자동 분류·기록·알림 처리하는 자유 주제 자동화 구현 및 자동 실행 검증 결과
+* [04_확장_및_개선_방안.md](https://github.com/17lucky71/Codysseyboy_1/blob/main/automation-pipeline/04_%ED%99%95%EC%9E%A5_%EB%B0%8F_%EA%B0%9C%EC%84%A0_%EB%B0%A9%EC%95%88.md): 모니터링·재시도·대체경로 설계, 모듈화 전략, 노코드 한계 및 코드 확장 로드맵 정리
 
 ---
 
